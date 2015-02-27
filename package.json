@@ -1,0 +1,23 @@
+{
+  "name": "sj-seed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stylus, Jade seed with Grunt.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chienius",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jade": "^0.14.1",
+    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-http-server": "^1.2.0"
+  },
+  "dependencies": {}
+}

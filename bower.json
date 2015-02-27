@@ -1,0 +1,29 @@
+{
+  "name": "sj-seed",
+  "version": "0.0.0",
+  "authors": [
+    "Archie Lu <chienius@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2"
+  },
+  "exportsOverride": {
+      "bootstrap": {
+          "js": "dist/js/*.min.js",
+          "fonts": "dist/fonts/*",
+          "css": "dist/css/*.min.css"
+      },
+      "jquery": {
+          "js": "dist/*.min.js"
+      }
+  }
+}
